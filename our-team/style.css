@@ -1,0 +1,27 @@
+body {background: linear-gradient(270deg, #1D104D 0%, #08031A 100%);}
+.topNav{
+      display: flex;
+      justify-content: right;
+}
+.main{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+}
+.sideNav{
+      position: fixed;
+      top: 35vh;
+      margin-left: 0px;
+}
+.cards{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 10px 10px;
+      justify-content: right;
+      align-items: center;
+}
+.card{
+      padding: 20px 20px;
+}
